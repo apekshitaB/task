@@ -1,0 +1,32 @@
+{
+  "tasks": [
+    {
+      "taskid": "2",
+      "name": "Second Task",
+      "details": "This is the Second task",
+      "id": 3
+    },
+    {
+      "taskid": "1234",
+      "name": "Task one",
+      "details": "This is the first Task.",
+      "id": 4
+    },
+    {
+      "taskid": "3",
+      "name": "Task three",
+      "details": "Third task is important",
+      "id": 5
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

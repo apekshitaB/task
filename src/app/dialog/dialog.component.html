@@ -1,0 +1,28 @@
+<h1 mat-dialog-title>Create Task </h1>
+<div mat-dialog-content>
+    <form [formGroup]="productForm">
+        <mat-form-field >
+            <mat-label>Task ID</mat-label>
+            <input formControlName="taskid" matInput placeholder="Enter your Task ID">
+         </mat-form-field>
+    
+         <mat-form-field >
+            <mat-label>Task Name</mat-label>
+            <input formControlName="name" matInput placeholder="Task Name here">
+         </mat-form-field>
+
+         <mat-form-field >
+          <mat-label>Task Details</mat-label>
+          <input formControlName="details" matInput placeholder="">
+       </mat-form-field>
+    
+        
+    
+         
+    </form>
+</div>
+<div class="button" mat-dialog-action [align]="'center'">
+    <button mat-raised-button color="warn" mat-dialog-close>Close</button>
+    <button style="margin-left:5px ;" mat-raised-button color="primary" (click)="reg()">{{actionbtn}}</button>
+   
+</div>
